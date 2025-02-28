@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>Sign Up Page</title>
 </head>
 <body>
     <section class="left-side">
+        <h1>Login</h1>
         <form>
+            <span><i class="fa-solid fa-envelope"></i></span>
             <input type="email" name="email" id="email" placeholder="Email"><br>
+            <span><i class="fa-solid fa-lock"></i></span>
             <input type="password" name="password" id="password" placeholder="Password"><br>
             <input type="submit" value="Submit">
         </form>
     </section>
 
     <section class="right-side">
-        <video autoplay loop muted>
-            <source src="Nature Video.mp4" type="video/mp4">
+        <video autoplay loop="-1" muted playinline>
+            <source src="Animated_Nature_Video.mp4" type="video/mp4">
+            <source src="Animated_Nature_Video.webm" type="video/webm">
         </video>
     </section>
 </body>
