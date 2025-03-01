@@ -9,14 +9,27 @@
     <title>Sign Up Page</title>
 </head>
 <body>
-    <div class="left-side">
-        <h1>Login</h1>
+    <!-- Video -->
+    <video autoplay muted loop="-1">
+        <source src="Animated_Nature_Video.mp4" type="video/mp4">
+        <!-- <source src="Animated_Nature_Video.webm" type="video/webm"> -->
+    </video>
+
+    <!-- Login Section -->
+    <div class="login">
+        <h1>LOGIN</h1>
         <form>
+            <div class="input-container">
             <span><i class="fa-solid fa-envelope"></i></span>
             <input type="email" name="email" id="email" placeholder="Email"><br>
+            </div>
+
+            <div class="input-container">
             <span><i class="fa-solid fa-lock"></i></span>
             <input type="password" name="password" id="password" placeholder="Password"><br>
-            <input type="submit" value="Submit">
+            </div>
+
+            <input type="submit" value="Submit" id="btn">
         </form>
     </div>
 </body>
